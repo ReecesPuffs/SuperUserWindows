@@ -43,12 +43,15 @@ Partial Class Superuserp3
         Me.Button18 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button22 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Button1.Location = New System.Drawing.Point(2, 38)
+        Me.Button1.Location = New System.Drawing.Point(2, 28)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(92, 23)
         Me.Button1.TabIndex = 0
@@ -57,7 +60,7 @@ Partial Class Superuserp3
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(100, 154)
+        Me.Button2.Location = New System.Drawing.Point(96, 144)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(92, 23)
         Me.Button2.TabIndex = 1
@@ -66,7 +69,7 @@ Partial Class Superuserp3
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(2, 67)
+        Me.Button3.Location = New System.Drawing.Point(2, 57)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(92, 23)
         Me.Button3.TabIndex = 2
@@ -75,7 +78,7 @@ Partial Class Superuserp3
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(97, 96)
+        Me.Button4.Location = New System.Drawing.Point(96, 86)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(92, 23)
         Me.Button4.TabIndex = 3
@@ -84,7 +87,7 @@ Partial Class Superuserp3
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(2, 154)
+        Me.Button5.Location = New System.Drawing.Point(2, 144)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(92, 23)
         Me.Button5.TabIndex = 4
@@ -93,7 +96,7 @@ Partial Class Superuserp3
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(2, 125)
+        Me.Button6.Location = New System.Drawing.Point(2, 115)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(92, 23)
         Me.Button6.TabIndex = 5
@@ -102,7 +105,7 @@ Partial Class Superuserp3
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(2, 183)
+        Me.Button7.Location = New System.Drawing.Point(2, 173)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(92, 23)
         Me.Button7.TabIndex = 6
@@ -111,7 +114,7 @@ Partial Class Superuserp3
         '
         'Button8
         '
-        Me.Button8.Location = New System.Drawing.Point(100, 125)
+        Me.Button8.Location = New System.Drawing.Point(96, 115)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(92, 23)
         Me.Button8.TabIndex = 7
@@ -120,7 +123,7 @@ Partial Class Superuserp3
         '
         'Button9
         '
-        Me.Button9.Location = New System.Drawing.Point(2, 96)
+        Me.Button9.Location = New System.Drawing.Point(96, 202)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(92, 23)
         Me.Button9.TabIndex = 8
@@ -129,7 +132,7 @@ Partial Class Superuserp3
         '
         'Button10
         '
-        Me.Button10.Location = New System.Drawing.Point(96, 67)
+        Me.Button10.Location = New System.Drawing.Point(95, 57)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(93, 23)
         Me.Button10.TabIndex = 9
@@ -138,7 +141,7 @@ Partial Class Superuserp3
         '
         'Button11
         '
-        Me.Button11.Location = New System.Drawing.Point(97, 183)
+        Me.Button11.Location = New System.Drawing.Point(96, 173)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(93, 23)
         Me.Button11.TabIndex = 10
@@ -147,7 +150,7 @@ Partial Class Superuserp3
         '
         'Button12
         '
-        Me.Button12.Location = New System.Drawing.Point(96, 38)
+        Me.Button12.Location = New System.Drawing.Point(96, 28)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(93, 23)
         Me.Button12.TabIndex = 11
@@ -156,7 +159,7 @@ Partial Class Superuserp3
         '
         'Button13
         '
-        Me.Button13.Location = New System.Drawing.Point(195, 154)
+        Me.Button13.Location = New System.Drawing.Point(191, 144)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(93, 23)
         Me.Button13.TabIndex = 12
@@ -165,7 +168,7 @@ Partial Class Superuserp3
         '
         'Button14
         '
-        Me.Button14.Location = New System.Drawing.Point(195, 38)
+        Me.Button14.Location = New System.Drawing.Point(191, 28)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(93, 23)
         Me.Button14.TabIndex = 13
@@ -174,7 +177,7 @@ Partial Class Superuserp3
         '
         'Button15
         '
-        Me.Button15.Location = New System.Drawing.Point(195, 67)
+        Me.Button15.Location = New System.Drawing.Point(191, 57)
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(93, 23)
         Me.Button15.TabIndex = 14
@@ -183,7 +186,7 @@ Partial Class Superuserp3
         '
         'Button16
         '
-        Me.Button16.Location = New System.Drawing.Point(195, 96)
+        Me.Button16.Location = New System.Drawing.Point(191, 86)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(93, 23)
         Me.Button16.TabIndex = 15
@@ -192,7 +195,7 @@ Partial Class Superuserp3
         '
         'Button17
         '
-        Me.Button17.Location = New System.Drawing.Point(195, 125)
+        Me.Button17.Location = New System.Drawing.Point(191, 115)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(93, 23)
         Me.Button17.TabIndex = 16
@@ -201,7 +204,7 @@ Partial Class Superuserp3
         '
         'Button18
         '
-        Me.Button18.Location = New System.Drawing.Point(195, 183)
+        Me.Button18.Location = New System.Drawing.Point(191, 202)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(93, 23)
         Me.Button18.TabIndex = 17
@@ -211,7 +214,7 @@ Partial Class Superuserp3
         'TextBox1
         '
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Location = New System.Drawing.Point(2, 12)
+        Me.TextBox1.Location = New System.Drawing.Point(2, 2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(148, 20)
         Me.TextBox1.TabIndex = 18
@@ -219,12 +222,39 @@ Partial Class Superuserp3
         '
         'Button19
         '
-        Me.Button19.Location = New System.Drawing.Point(156, 12)
+        Me.Button19.Location = New System.Drawing.Point(152, 2)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(132, 20)
         Me.Button19.TabIndex = 19
         Me.Button19.Text = "Verify"
         Me.Button19.UseVisualStyleBackColor = True
+        '
+        'Button20
+        '
+        Me.Button20.Location = New System.Drawing.Point(1, 86)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(92, 23)
+        Me.Button20.TabIndex = 20
+        Me.Button20.Text = "SafeMode8/10"
+        Me.Button20.UseVisualStyleBackColor = True
+        '
+        'Button21
+        '
+        Me.Button21.Location = New System.Drawing.Point(191, 173)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(93, 23)
+        Me.Button21.TabIndex = 21
+        Me.Button21.Text = "Appdata"
+        Me.Button21.UseVisualStyleBackColor = True
+        '
+        'Button22
+        '
+        Me.Button22.Location = New System.Drawing.Point(2, 202)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(92, 23)
+        Me.Button22.TabIndex = 22
+        Me.Button22.Text = "Abort Shutdown"
+        Me.Button22.UseVisualStyleBackColor = True
         '
         'Superuserp3
         '
@@ -235,7 +265,10 @@ Partial Class Superuserp3
         Me.BackColor = System.Drawing.Color.DarkGoldenrod
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.CancelButton = Me.Button1
-        Me.ClientSize = New System.Drawing.Size(292, 211)
+        Me.ClientSize = New System.Drawing.Size(285, 227)
+        Me.Controls.Add(Me.Button22)
+        Me.Controls.Add(Me.Button21)
+        Me.Controls.Add(Me.Button20)
         Me.Controls.Add(Me.Button19)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button18)
@@ -261,7 +294,7 @@ Partial Class Superuserp3
         Me.MaximizeBox = False
         Me.Name = "Superuserp3"
         Me.ShowInTaskbar = False
-        Me.Text = "SuperUser Version 2.0 Alpha"
+        Me.Text = "SuperUser Version 2.3 Alpha"
         Me.TransparencyKey = System.Drawing.Color.Red
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -287,5 +320,8 @@ Partial Class Superuserp3
     Friend WithEvents Button18 As System.Windows.Forms.Button
     Friend WithEvents Button19 As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Button20 As System.Windows.Forms.Button
+    Friend WithEvents Button21 As System.Windows.Forms.Button
+    Friend WithEvents Button22 As System.Windows.Forms.Button
 
 End Class

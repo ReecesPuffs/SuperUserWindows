@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SuperUser p3.exe" size="99328">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SuperUser p3.exe" size="100864">
       <assemblyIdentity name="SuperUser p3" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>VtQreKu1hOSAsMEOi4Zo+zqWXWM=</dsig:DigestValue>
+        <dsig:DigestValue>Uu/LbfkjsiM+dY09QZOGZ4y91Ko=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

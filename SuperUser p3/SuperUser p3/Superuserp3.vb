@@ -1,5 +1,8 @@
-﻿Public Class Superuserp3
+﻿Imports System.Environment
+Public Class Superuserp3
     Dim DriveLetter
+    Dim appData As String = GetFolderPath(SpecialFolder.ApplicationData)
+
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         Process.Start(DriveLetter & ":\Windows\System32\taskmgr.exe")
@@ -58,7 +61,7 @@
     End Sub
 
     Private Sub Button13_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button13.Click
-Process.Start(DriveLetter & ":\Windows\System32\WindowsPowerShell\v1.0\powershell.exe")
+        Process.Start(DriveLetter & ":\Windows\System32\WindowsPowerShell\v1.0\powershell.exe")
     End Sub
 
     Private Sub Button14_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button14.Click
@@ -78,7 +81,7 @@ Process.Start(DriveLetter & ":\Windows\System32\WindowsPowerShell\v1.0\powershel
     End Sub
 
     Private Sub Button18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button18.Click
-        MsgBox("Made By Reece's Puffs. Now on GitHub", vbOKOnly, "Version: 2.0 Alpha")
+        MsgBox("Made By Reece's Puffs. Now on GitHub", vbOKOnly, "Version: 2.3 Alpha")
     End Sub
 
     Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.TextChanged
@@ -95,5 +98,17 @@ Process.Start(DriveLetter & ":\Windows\System32\WindowsPowerShell\v1.0\powershel
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try
+    End Sub
+
+    Private Sub Button20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button20.Click
+        Shell("shutdown -r -o")
+    End Sub
+
+    Private Sub Button21_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button21.Click
+        Process.Start(DriveLetter & ":\windows\explorer.exe", appData)
+    End Sub
+
+    Private Sub Button22_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button22.Click
+        Shell("shutdown -a")
     End Sub
 End Class
