@@ -1,5 +1,6 @@
 ﻿Imports System.Environment
 Public Class Superuserp4
+
     Dim DriveLetter
     Dim appData As String = GetFolderPath(SpecialFolder.ApplicationData)
 
@@ -81,7 +82,7 @@ Public Class Superuserp4
     End Sub
 
     Private Sub Button18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button18.Click
-        MsgBox("Made By Reece's Puffs. Now on GitHub", vbOKOnly, "Version: 3.2 Alpha")
+        MsgBox("Made By Reece's Puffs and digm0repaka. Now on GitHub", vbOKOnly, "Version: 3.3 Alpha")
     End Sub
 
     Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.TextChanged
@@ -115,5 +116,9 @@ Public Class Superuserp4
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try
+    End Sub
+
+    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+        End
     End Sub
 End Class

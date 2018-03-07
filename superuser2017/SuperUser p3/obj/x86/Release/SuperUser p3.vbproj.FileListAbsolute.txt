@@ -30,7 +30,6 @@ C:\Users\Daniel\Desktop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x
 C:\Users\Daniel\Desktop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser_p3.Resources.resources
 C:\Users\Daniel\Desktop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser_p3.Superuserp4.resources
 C:\Users\Daniel\Desktop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser p3.vbproj.GenerateResource.cache
-C:\Users\Daniel\Desktop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser p3.vbproj.CoreCompileInputs.cache
 C:\Users\Daniel\Desktop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser p3.exe
 C:\Users\Daniel\Desktop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser p3.xml
 C:\Users\Daniel\Desktop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser p3.pdb
