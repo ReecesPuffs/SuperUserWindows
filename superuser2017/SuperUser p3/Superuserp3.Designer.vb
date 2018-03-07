@@ -51,6 +51,9 @@ Partial Class Superuserp4
         'Button1
         '
         Me.Button1.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
         Me.Button1.Location = New System.Drawing.Point(243, 122)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(92, 23)
@@ -60,6 +63,9 @@ Partial Class Superuserp4
         '
         'Button2
         '
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.Location = New System.Drawing.Point(243, 35)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(92, 23)
@@ -69,6 +75,9 @@ Partial Class Superuserp4
         '
         'Button3
         '
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
         Me.Button3.Location = New System.Drawing.Point(243, 93)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(92, 23)
@@ -78,6 +87,9 @@ Partial Class Superuserp4
         '
         'Button4
         '
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
         Me.Button4.Location = New System.Drawing.Point(121, 35)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(92, 23)
@@ -87,6 +99,9 @@ Partial Class Superuserp4
         '
         'Button5
         '
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
         Me.Button5.Location = New System.Drawing.Point(368, 93)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(92, 23)
@@ -96,6 +111,9 @@ Partial Class Superuserp4
         '
         'Button6
         '
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
         Me.Button6.Location = New System.Drawing.Point(368, 64)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(92, 23)
@@ -105,6 +123,9 @@ Partial Class Superuserp4
         '
         'Button7
         '
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button7.Image = CType(resources.GetObject("Button7.Image"), System.Drawing.Image)
         Me.Button7.Location = New System.Drawing.Point(368, 122)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(92, 23)
@@ -114,6 +135,9 @@ Partial Class Superuserp4
         '
         'Button9
         '
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button9.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button9.Image = CType(resources.GetObject("Button9.Image"), System.Drawing.Image)
         Me.Button9.Location = New System.Drawing.Point(120, 151)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(92, 23)
@@ -123,6 +147,9 @@ Partial Class Superuserp4
         '
         'Button10
         '
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button10.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button10.Image = CType(resources.GetObject("Button10.Image"), System.Drawing.Image)
         Me.Button10.Location = New System.Drawing.Point(120, 93)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(93, 23)
@@ -132,6 +159,9 @@ Partial Class Superuserp4
         '
         'Button11
         '
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button11.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button11.Image = CType(resources.GetObject("Button11.Image"), System.Drawing.Image)
         Me.Button11.Location = New System.Drawing.Point(4, 151)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(93, 23)
@@ -141,6 +171,9 @@ Partial Class Superuserp4
         '
         'Button12
         '
+        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button12.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
         Me.Button12.Location = New System.Drawing.Point(4, 122)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(93, 23)
@@ -150,6 +183,9 @@ Partial Class Superuserp4
         '
         'Button13
         '
+        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button13.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button13.Image = CType(resources.GetObject("Button13.Image"), System.Drawing.Image)
         Me.Button13.Location = New System.Drawing.Point(242, 64)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(93, 23)
@@ -159,6 +195,9 @@ Partial Class Superuserp4
         '
         'Button14
         '
+        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button14.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button14.Image = CType(resources.GetObject("Button14.Image"), System.Drawing.Image)
         Me.Button14.Location = New System.Drawing.Point(4, 35)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(93, 23)
@@ -168,6 +207,9 @@ Partial Class Superuserp4
         '
         'Button15
         '
+        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button15.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button15.Image = CType(resources.GetObject("Button15.Image"), System.Drawing.Image)
         Me.Button15.Location = New System.Drawing.Point(4, 64)
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(93, 23)
@@ -177,6 +219,9 @@ Partial Class Superuserp4
         '
         'Button16
         '
+        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button16.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button16.Image = CType(resources.GetObject("Button16.Image"), System.Drawing.Image)
         Me.Button16.Location = New System.Drawing.Point(120, 64)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(93, 23)
@@ -186,6 +231,9 @@ Partial Class Superuserp4
         '
         'Button17
         '
+        Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button17.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button17.Image = CType(resources.GetObject("Button17.Image"), System.Drawing.Image)
         Me.Button17.Location = New System.Drawing.Point(120, 122)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(93, 23)
@@ -195,6 +243,9 @@ Partial Class Superuserp4
         '
         'Button18
         '
+        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button18.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button18.Image = CType(resources.GetObject("Button18.Image"), System.Drawing.Image)
         Me.Button18.Location = New System.Drawing.Point(4, 1)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(93, 23)
@@ -204,7 +255,9 @@ Partial Class Superuserp4
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.WindowText
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.ForeColor = System.Drawing.SystemColors.Window
         Me.TextBox1.Location = New System.Drawing.Point(164, 4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(148, 20)
@@ -213,6 +266,9 @@ Partial Class Superuserp4
         '
         'Button20
         '
+        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button20.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button20.Image = CType(resources.GetObject("Button20.Image"), System.Drawing.Image)
         Me.Button20.Location = New System.Drawing.Point(368, 151)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(92, 23)
@@ -222,6 +278,9 @@ Partial Class Superuserp4
         '
         'Button21
         '
+        Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button21.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button21.Image = CType(resources.GetObject("Button21.Image"), System.Drawing.Image)
         Me.Button21.Location = New System.Drawing.Point(4, 93)
         Me.Button21.Name = "Button21"
         Me.Button21.Size = New System.Drawing.Size(93, 23)
@@ -231,6 +290,9 @@ Partial Class Superuserp4
         '
         'Button22
         '
+        Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button22.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button22.Image = CType(resources.GetObject("Button22.Image"), System.Drawing.Image)
         Me.Button22.Location = New System.Drawing.Point(368, 35)
         Me.Button22.Name = "Button22"
         Me.Button22.Size = New System.Drawing.Size(92, 23)
@@ -241,6 +303,9 @@ Partial Class Superuserp4
         'Button8
         '
         Me.Button8.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button8.Image = CType(resources.GetObject("Button8.Image"), System.Drawing.Image)
         Me.Button8.Location = New System.Drawing.Point(243, 151)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(92, 23)
@@ -250,6 +315,9 @@ Partial Class Superuserp4
         '
         'Button19
         '
+        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button19.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button19.Image = CType(resources.GetObject("Button19.Image"), System.Drawing.Image)
         Me.Button19.Location = New System.Drawing.Point(330, 1)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(130, 23)
@@ -266,7 +334,7 @@ Partial Class Superuserp4
         Me.BackColor = System.Drawing.Color.DarkGoldenrod
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.CancelButton = Me.Button1
-        Me.ClientSize = New System.Drawing.Size(468, 179)
+        Me.ClientSize = New System.Drawing.Size(468, 200)
         Me.Controls.Add(Me.Button19)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button22)
