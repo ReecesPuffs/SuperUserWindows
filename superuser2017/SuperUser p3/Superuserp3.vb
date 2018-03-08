@@ -117,8 +117,7 @@ Public Class Superuserp4
             MessageBox.Show(ex.Message)
         End Try
     End Sub
-
-    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
-        End
+    Private Sub Button23_Click_1(sender As Object, e As EventArgs) Handles Button23.Click
+        Process.Start(DriveLetter & ":\windows\system32\appwiz.cpl")
     End Sub
 End Class
