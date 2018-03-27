@@ -275,7 +275,7 @@ Partial Class Superuserp4
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.TextBox1.ForeColor = System.Drawing.SystemColors.Window
-        Me.TextBox1.Location = New System.Drawing.Point(244, 9)
+        Me.TextBox1.Location = New System.Drawing.Point(271, 9)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(92, 20)
         Me.TextBox1.TabIndex = 18
@@ -340,7 +340,7 @@ Partial Class Superuserp4
         Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button19.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Button19.Image = CType(resources.GetObject("Button19.Image"), System.Drawing.Image)
-        Me.Button19.Location = New System.Drawing.Point(369, 14)
+        Me.Button19.Location = New System.Drawing.Point(369, 9)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(92, 23)
         Me.Button19.TabIndex = 24
@@ -353,9 +353,9 @@ Partial Class Superuserp4
         Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button23.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Button23.Image = CType(resources.GetObject("Button23.Image"), System.Drawing.Image)
-        Me.Button23.Location = New System.Drawing.Point(121, 9)
+        Me.Button23.Location = New System.Drawing.Point(122, 188)
         Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(93, 23)
+        Me.Button23.Size = New System.Drawing.Size(92, 23)
         Me.Button23.TabIndex = 25
         Me.Button23.Text = "App wiz"
         Me.Button23.UseVisualStyleBackColor = True
@@ -369,7 +369,7 @@ Partial Class Superuserp4
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.CancelButton = Me.Button1
-        Me.ClientSize = New System.Drawing.Size(468, 191)
+        Me.ClientSize = New System.Drawing.Size(468, 213)
         Me.Controls.Add(Me.Button23)
         Me.Controls.Add(Me.Button19)
         Me.Controls.Add(Me.Button8)

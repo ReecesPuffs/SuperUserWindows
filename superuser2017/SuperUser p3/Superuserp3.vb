@@ -3,34 +3,65 @@ Public Class Superuserp4
 
     Dim DriveLetter
     Dim appData As String = GetFolderPath(SpecialFolder.ApplicationData)
+    Dim DriveIsValid = False
+
 
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
-        Process.Start(DriveLetter & ":\Windows\System32\taskmgr.exe")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\taskmgr.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Process.Start(DriveLetter & ":\Windows\regedit.exe")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\regedit.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
-        Process.Start(DriveLetter & ":\Windows\System32\cmd.exe")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\cmd.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
+
     End Sub
 
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
-        Process.Start(DriveLetter & ":\Windows\System32\control.exe")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\control.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
-        Shell("shutdown -s")
+        If DriveIsValid = True Then
+            Shell("shutdown -s")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
-        Shell("shutdown -l")
+        If DriveIsValid = True Then
+            Shell("shutdown -l")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
-        Shell("shutdown -r")
+        If DriveIsValid = True Then
+            Shell("shutdown -r")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -42,19 +73,35 @@ Public Class Superuserp4
     End Sub
 
     Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button9.Click
-        Process.Start(DriveLetter & ":\Windows\System32\eventvwr.exe")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\eventvwr.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button10.Click
-        Process.Start(DriveLetter & ":\Windows\System32\devmgmt.msc")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\devmgmt.msc")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button11.Click
-        Process.Start(DriveLetter & ":\Windows\System32\dxdiag.exe")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\dxdiag.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button12.Click
-        Process.Start(DriveLetter & ":\Windows\System32\msinfo32.exe")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\msinfo32.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Superuserp3_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -62,26 +109,47 @@ Public Class Superuserp4
     End Sub
 
     Private Sub Button13_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button13.Click
-        Process.Start(DriveLetter & ":\Windows\System32\WindowsPowerShell\v1.0\powershell.exe")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\WindowsPowerShell\v1.0\powershell.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button14_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button14.Click
-        Process.Start(DriveLetter & ":\Windows\System32\winver.exe")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\winver.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button15.Click
-        Process.Start(DriveLetter & ":\Windows\System32\services.msc")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\services.msc")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button16_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button16.Click
-        Process.Start(DriveLetter & ":\Windows\System32\compmgmt.msc")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\compmgmt.msc")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button17.Click
-        Process.Start(DriveLetter & ":\Windows\System32\cleanmgr.exe")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\Windows\System32\cleanmgr.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button18.Click
+
         MsgBox("Made By Reece's Puffs and digm0repaka. Now on GitHub", vbOKOnly, "Version: 3.3 Alpha")
     End Sub
 
@@ -91,25 +159,42 @@ Public Class Superuserp4
 
 
     Private Sub Button20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button20.Click
-        Shell("shutdown -r -o")
+        If DriveIsValid = True Then
+            Shell("shutdown -r -o")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button21_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button21.Click
-        Process.Start(DriveLetter & ":\windows\explorer.exe", appData)
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\windows\explorer.exe", appData)
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button22_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button22.Click
-        Shell("shutdown -a")
+        If DriveIsValid = True Then
+            Shell("shutdown -a")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button8_Click_1(sender As Object, e As EventArgs) Handles Button8.Click
-        System.Diagnostics.Process.Start("control.exe", "system")
+        If DriveIsValid = True Then
+            System.Diagnostics.Process.Start("control.exe", "system")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
         Try
             If IO.Directory.Exists(DriveLetter & ":\windows") Then
                 MsgBox(DriveLetter & ": Drive is a Thing :D", vbOKOnly, "Our Service Says:")
+                DriveIsValid = True
             Else
                 MsgBox(DriveLetter & ": Drive is Not a Thing D:", vbOKOnly, "Our Service Says:")
             End If
@@ -118,6 +203,11 @@ Public Class Superuserp4
         End Try
     End Sub
     Private Sub Button23_Click_1(sender As Object, e As EventArgs) Handles Button23.Click
-        Process.Start(DriveLetter & ":\windows\system32\appwiz.cpl")
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\windows\system32\appwiz.cpl")
+        Else
+            MsgBox("Please press Verify")
+        End If
     End Sub
 End Class
+
