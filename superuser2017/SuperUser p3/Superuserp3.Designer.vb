@@ -21,253 +21,253 @@ Partial Class Superuserp4
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Superuserp4))
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
+        Me.Regedit = New System.Windows.Forms.Button()
+        Me.CMD = New System.Windows.Forms.Button()
+        Me.TaskManager = New System.Windows.Forms.Button()
+        Me.ControlPanel = New System.Windows.Forms.Button()
+        Me.Logoff = New System.Windows.Forms.Button()
+        Me.Shutdown = New System.Windows.Forms.Button()
+        Me.Restart = New System.Windows.Forms.Button()
+        Me.EventViewer = New System.Windows.Forms.Button()
+        Me.DeviceManager = New System.Windows.Forms.Button()
+        Me.DirectXDiag = New System.Windows.Forms.Button()
+        Me.MSinfo = New System.Windows.Forms.Button()
+        Me.PowerShell = New System.Windows.Forms.Button()
+        Me.Winver = New System.Windows.Forms.Button()
+        Me.Services = New System.Windows.Forms.Button()
+        Me.CompMgmt = New System.Windows.Forms.Button()
+        Me.DeskCleanup = New System.Windows.Forms.Button()
+        Me.About = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button22 = New System.Windows.Forms.Button()
+        Me.SafeMode = New System.Windows.Forms.Button()
+        Me.Appdata = New System.Windows.Forms.Button()
+        Me.AbortShutdown = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button23 = New System.Windows.Forms.Button()
+        Me.AppWizard = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'Regedit
         '
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(244, 130)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(92, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Regedit"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Regedit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Regedit.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Regedit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Regedit.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Regedit.Image = CType(resources.GetObject("Regedit.Image"), System.Drawing.Image)
+        Me.Regedit.Location = New System.Drawing.Point(244, 160)
+        Me.Regedit.Name = "Regedit"
+        Me.Regedit.Size = New System.Drawing.Size(92, 23)
+        Me.Regedit.TabIndex = 0
+        Me.Regedit.Text = "Regedit"
+        Me.Regedit.UseVisualStyleBackColor = True
         '
-        'Button2
+        'CMD
         '
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(244, 43)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(92, 23)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "CMD"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.CMD.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CMD.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CMD.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.CMD.Image = CType(resources.GetObject("CMD.Image"), System.Drawing.Image)
+        Me.CMD.Location = New System.Drawing.Point(244, 72)
+        Me.CMD.Name = "CMD"
+        Me.CMD.Size = New System.Drawing.Size(92, 23)
+        Me.CMD.TabIndex = 1
+        Me.CMD.Text = "CMD"
+        Me.CMD.UseVisualStyleBackColor = True
         '
-        'Button3
+        'TaskManager
         '
-        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(244, 101)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(92, 23)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Task Manager"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.TaskManager.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.TaskManager.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.TaskManager.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.TaskManager.Image = CType(resources.GetObject("TaskManager.Image"), System.Drawing.Image)
+        Me.TaskManager.Location = New System.Drawing.Point(244, 130)
+        Me.TaskManager.Name = "TaskManager"
+        Me.TaskManager.Size = New System.Drawing.Size(92, 23)
+        Me.TaskManager.TabIndex = 2
+        Me.TaskManager.Text = "Task Manager"
+        Me.TaskManager.UseVisualStyleBackColor = True
         '
-        'Button4
+        'ControlPanel
         '
-        Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
-        Me.Button4.Location = New System.Drawing.Point(122, 43)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(92, 23)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Control Panel"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.ControlPanel.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ControlPanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ControlPanel.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.ControlPanel.Image = CType(resources.GetObject("ControlPanel.Image"), System.Drawing.Image)
+        Me.ControlPanel.Location = New System.Drawing.Point(121, 72)
+        Me.ControlPanel.Name = "ControlPanel"
+        Me.ControlPanel.Size = New System.Drawing.Size(92, 23)
+        Me.ControlPanel.TabIndex = 3
+        Me.ControlPanel.Text = "Control Panel"
+        Me.ControlPanel.UseVisualStyleBackColor = True
         '
-        'Button5
+        'Logoff
         '
-        Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
-        Me.Button5.Location = New System.Drawing.Point(369, 101)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(92, 23)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Logoff"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Logoff.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Logoff.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Logoff.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Logoff.Image = CType(resources.GetObject("Logoff.Image"), System.Drawing.Image)
+        Me.Logoff.Location = New System.Drawing.Point(369, 130)
+        Me.Logoff.Name = "Logoff"
+        Me.Logoff.Size = New System.Drawing.Size(92, 23)
+        Me.Logoff.TabIndex = 4
+        Me.Logoff.Text = "Logoff"
+        Me.Logoff.UseVisualStyleBackColor = True
         '
-        'Button6
+        'Shutdown
         '
-        Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
-        Me.Button6.Location = New System.Drawing.Point(369, 72)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(92, 23)
-        Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Shutdown"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.Shutdown.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Shutdown.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Shutdown.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Shutdown.Image = CType(resources.GetObject("Shutdown.Image"), System.Drawing.Image)
+        Me.Shutdown.Location = New System.Drawing.Point(369, 101)
+        Me.Shutdown.Name = "Shutdown"
+        Me.Shutdown.Size = New System.Drawing.Size(92, 23)
+        Me.Shutdown.TabIndex = 5
+        Me.Shutdown.Text = "Shutdown"
+        Me.Shutdown.UseVisualStyleBackColor = True
         '
-        'Button7
+        'Restart
         '
-        Me.Button7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button7.Image = CType(resources.GetObject("Button7.Image"), System.Drawing.Image)
-        Me.Button7.Location = New System.Drawing.Point(369, 130)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(92, 23)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Restart"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Restart.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Restart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Restart.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Restart.Image = CType(resources.GetObject("Restart.Image"), System.Drawing.Image)
+        Me.Restart.Location = New System.Drawing.Point(369, 160)
+        Me.Restart.Name = "Restart"
+        Me.Restart.Size = New System.Drawing.Size(92, 23)
+        Me.Restart.TabIndex = 6
+        Me.Restart.Text = "Restart"
+        Me.Restart.UseVisualStyleBackColor = True
         '
-        'Button9
+        'EventViewer
         '
-        Me.Button9.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button9.Image = CType(resources.GetObject("Button9.Image"), System.Drawing.Image)
-        Me.Button9.Location = New System.Drawing.Point(121, 159)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(92, 23)
-        Me.Button9.TabIndex = 8
-        Me.Button9.Text = "EventViewer"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.EventViewer.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.EventViewer.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.EventViewer.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.EventViewer.Image = CType(resources.GetObject("EventViewer.Image"), System.Drawing.Image)
+        Me.EventViewer.Location = New System.Drawing.Point(121, 189)
+        Me.EventViewer.Name = "EventViewer"
+        Me.EventViewer.Size = New System.Drawing.Size(92, 23)
+        Me.EventViewer.TabIndex = 8
+        Me.EventViewer.Text = "EventViewer"
+        Me.EventViewer.UseVisualStyleBackColor = True
         '
-        'Button10
+        'DeviceManager
         '
-        Me.Button10.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button10.Image = CType(resources.GetObject("Button10.Image"), System.Drawing.Image)
-        Me.Button10.Location = New System.Drawing.Point(121, 101)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(93, 23)
-        Me.Button10.TabIndex = 9
-        Me.Button10.Text = "DeviceManager"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.DeviceManager.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.DeviceManager.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.DeviceManager.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.DeviceManager.Image = CType(resources.GetObject("DeviceManager.Image"), System.Drawing.Image)
+        Me.DeviceManager.Location = New System.Drawing.Point(121, 130)
+        Me.DeviceManager.Name = "DeviceManager"
+        Me.DeviceManager.Size = New System.Drawing.Size(93, 23)
+        Me.DeviceManager.TabIndex = 9
+        Me.DeviceManager.Text = "DeviceManager"
+        Me.DeviceManager.UseVisualStyleBackColor = True
         '
-        'Button11
+        'DirectXDiag
         '
-        Me.Button11.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button11.Image = CType(resources.GetObject("Button11.Image"), System.Drawing.Image)
-        Me.Button11.Location = New System.Drawing.Point(6, 160)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(93, 23)
-        Me.Button11.TabIndex = 10
-        Me.Button11.Text = "DxDiag"
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.DirectXDiag.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.DirectXDiag.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.DirectXDiag.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.DirectXDiag.Image = CType(resources.GetObject("DirectXDiag.Image"), System.Drawing.Image)
+        Me.DirectXDiag.Location = New System.Drawing.Point(5, 189)
+        Me.DirectXDiag.Name = "DirectXDiag"
+        Me.DirectXDiag.Size = New System.Drawing.Size(93, 23)
+        Me.DirectXDiag.TabIndex = 10
+        Me.DirectXDiag.Text = "DxDiag"
+        Me.DirectXDiag.UseVisualStyleBackColor = True
         '
-        'Button12
+        'MSinfo
         '
-        Me.Button12.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
-        Me.Button12.Location = New System.Drawing.Point(5, 130)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(93, 23)
-        Me.Button12.TabIndex = 11
-        Me.Button12.Text = "MSInfo"
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.MSinfo.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.MSinfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.MSinfo.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.MSinfo.Image = CType(resources.GetObject("MSinfo.Image"), System.Drawing.Image)
+        Me.MSinfo.Location = New System.Drawing.Point(5, 160)
+        Me.MSinfo.Name = "MSinfo"
+        Me.MSinfo.Size = New System.Drawing.Size(93, 23)
+        Me.MSinfo.TabIndex = 11
+        Me.MSinfo.Text = "MSInfo"
+        Me.MSinfo.UseVisualStyleBackColor = True
         '
-        'Button13
+        'PowerShell
         '
-        Me.Button13.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button13.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button13.Image = CType(resources.GetObject("Button13.Image"), System.Drawing.Image)
-        Me.Button13.Location = New System.Drawing.Point(244, 72)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(92, 23)
-        Me.Button13.TabIndex = 12
-        Me.Button13.Text = "PowerShell"
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.PowerShell.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PowerShell.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PowerShell.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.PowerShell.Image = CType(resources.GetObject("PowerShell.Image"), System.Drawing.Image)
+        Me.PowerShell.Location = New System.Drawing.Point(244, 101)
+        Me.PowerShell.Name = "PowerShell"
+        Me.PowerShell.Size = New System.Drawing.Size(92, 23)
+        Me.PowerShell.TabIndex = 12
+        Me.PowerShell.Text = "PowerShell"
+        Me.PowerShell.UseVisualStyleBackColor = True
         '
-        'Button14
+        'Winver
         '
-        Me.Button14.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button14.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button14.Image = CType(resources.GetObject("Button14.Image"), System.Drawing.Image)
-        Me.Button14.Location = New System.Drawing.Point(5, 43)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(93, 23)
-        Me.Button14.TabIndex = 13
-        Me.Button14.Text = "Winver"
-        Me.Button14.UseVisualStyleBackColor = True
+        Me.Winver.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Winver.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Winver.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Winver.Image = CType(resources.GetObject("Winver.Image"), System.Drawing.Image)
+        Me.Winver.Location = New System.Drawing.Point(5, 72)
+        Me.Winver.Name = "Winver"
+        Me.Winver.Size = New System.Drawing.Size(93, 23)
+        Me.Winver.TabIndex = 13
+        Me.Winver.Text = "Winver"
+        Me.Winver.UseVisualStyleBackColor = True
         '
-        'Button15
+        'Services
         '
-        Me.Button15.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button15.Image = CType(resources.GetObject("Button15.Image"), System.Drawing.Image)
-        Me.Button15.Location = New System.Drawing.Point(5, 72)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(93, 23)
-        Me.Button15.TabIndex = 14
-        Me.Button15.Text = "Services"
-        Me.Button15.UseVisualStyleBackColor = True
+        Me.Services.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Services.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Services.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Services.Image = CType(resources.GetObject("Services.Image"), System.Drawing.Image)
+        Me.Services.Location = New System.Drawing.Point(5, 101)
+        Me.Services.Name = "Services"
+        Me.Services.Size = New System.Drawing.Size(93, 23)
+        Me.Services.TabIndex = 14
+        Me.Services.Text = "Services"
+        Me.Services.UseVisualStyleBackColor = True
         '
-        'Button16
+        'CompMgmt
         '
-        Me.Button16.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button16.Image = CType(resources.GetObject("Button16.Image"), System.Drawing.Image)
-        Me.Button16.Location = New System.Drawing.Point(121, 72)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(93, 23)
-        Me.Button16.TabIndex = 15
-        Me.Button16.Text = "compmgmt"
-        Me.Button16.UseVisualStyleBackColor = True
+        Me.CompMgmt.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CompMgmt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CompMgmt.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.CompMgmt.Image = CType(resources.GetObject("CompMgmt.Image"), System.Drawing.Image)
+        Me.CompMgmt.Location = New System.Drawing.Point(121, 101)
+        Me.CompMgmt.Name = "CompMgmt"
+        Me.CompMgmt.Size = New System.Drawing.Size(93, 23)
+        Me.CompMgmt.TabIndex = 15
+        Me.CompMgmt.Text = "CompMgmt"
+        Me.CompMgmt.UseVisualStyleBackColor = True
         '
-        'Button17
+        'DeskCleanup
         '
-        Me.Button17.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button17.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button17.Image = CType(resources.GetObject("Button17.Image"), System.Drawing.Image)
-        Me.Button17.Location = New System.Drawing.Point(121, 130)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(93, 23)
-        Me.Button17.TabIndex = 16
-        Me.Button17.Text = "cleanmgmt"
-        Me.Button17.UseVisualStyleBackColor = True
+        Me.DeskCleanup.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.DeskCleanup.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.DeskCleanup.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.DeskCleanup.Image = CType(resources.GetObject("DeskCleanup.Image"), System.Drawing.Image)
+        Me.DeskCleanup.Location = New System.Drawing.Point(121, 160)
+        Me.DeskCleanup.Name = "DeskCleanup"
+        Me.DeskCleanup.Size = New System.Drawing.Size(93, 23)
+        Me.DeskCleanup.TabIndex = 16
+        Me.DeskCleanup.Text = "DeskCleanup"
+        Me.DeskCleanup.UseVisualStyleBackColor = True
         '
-        'Button18
+        'About
         '
-        Me.Button18.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button18.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button18.Image = CType(resources.GetObject("Button18.Image"), System.Drawing.Image)
-        Me.Button18.Location = New System.Drawing.Point(5, 9)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(93, 23)
-        Me.Button18.TabIndex = 17
-        Me.Button18.Text = "About"
-        Me.Button18.UseVisualStyleBackColor = True
+        Me.About.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.About.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.About.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.About.Image = CType(resources.GetObject("About.Image"), System.Drawing.Image)
+        Me.About.Location = New System.Drawing.Point(5, 9)
+        Me.About.Name = "About"
+        Me.About.Size = New System.Drawing.Size(93, 23)
+        Me.About.TabIndex = 17
+        Me.About.Text = "About"
+        Me.About.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
@@ -281,44 +281,44 @@ Partial Class Superuserp4
         Me.TextBox1.TabIndex = 18
         Me.TextBox1.Text = "C"
         '
-        'Button20
+        'SafeMode
         '
-        Me.Button20.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button20.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button20.Image = CType(resources.GetObject("Button20.Image"), System.Drawing.Image)
-        Me.Button20.Location = New System.Drawing.Point(369, 159)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(92, 23)
-        Me.Button20.TabIndex = 20
-        Me.Button20.Text = "SafeMode8/10"
-        Me.Button20.UseVisualStyleBackColor = True
+        Me.SafeMode.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SafeMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.SafeMode.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.SafeMode.Image = CType(resources.GetObject("SafeMode.Image"), System.Drawing.Image)
+        Me.SafeMode.Location = New System.Drawing.Point(369, 189)
+        Me.SafeMode.Name = "SafeMode"
+        Me.SafeMode.Size = New System.Drawing.Size(92, 23)
+        Me.SafeMode.TabIndex = 20
+        Me.SafeMode.Text = "SafeMode8/10"
+        Me.SafeMode.UseVisualStyleBackColor = True
         '
-        'Button21
+        'Appdata
         '
-        Me.Button21.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button21.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button21.Image = CType(resources.GetObject("Button21.Image"), System.Drawing.Image)
-        Me.Button21.Location = New System.Drawing.Point(5, 101)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(93, 23)
-        Me.Button21.TabIndex = 21
-        Me.Button21.Text = "Appdata"
-        Me.Button21.UseVisualStyleBackColor = True
+        Me.Appdata.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Appdata.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Appdata.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Appdata.Image = CType(resources.GetObject("Appdata.Image"), System.Drawing.Image)
+        Me.Appdata.Location = New System.Drawing.Point(5, 130)
+        Me.Appdata.Name = "Appdata"
+        Me.Appdata.Size = New System.Drawing.Size(93, 23)
+        Me.Appdata.TabIndex = 21
+        Me.Appdata.Text = "Appdata"
+        Me.Appdata.UseVisualStyleBackColor = True
         '
-        'Button22
+        'AbortShutdown
         '
-        Me.Button22.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button22.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button22.Image = CType(resources.GetObject("Button22.Image"), System.Drawing.Image)
-        Me.Button22.Location = New System.Drawing.Point(369, 43)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(92, 23)
-        Me.Button22.TabIndex = 22
-        Me.Button22.Text = "Abort Shutdown"
-        Me.Button22.UseVisualStyleBackColor = True
+        Me.AbortShutdown.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.AbortShutdown.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AbortShutdown.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.AbortShutdown.Image = CType(resources.GetObject("AbortShutdown.Image"), System.Drawing.Image)
+        Me.AbortShutdown.Location = New System.Drawing.Point(369, 72)
+        Me.AbortShutdown.Name = "AbortShutdown"
+        Me.AbortShutdown.Size = New System.Drawing.Size(92, 23)
+        Me.AbortShutdown.TabIndex = 22
+        Me.AbortShutdown.Text = "Abort Shutdown"
+        Me.AbortShutdown.UseVisualStyleBackColor = True
         '
         'Button8
         '
@@ -327,7 +327,7 @@ Partial Class Superuserp4
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Button8.Image = CType(resources.GetObject("Button8.Image"), System.Drawing.Image)
-        Me.Button8.Location = New System.Drawing.Point(244, 159)
+        Me.Button8.Location = New System.Drawing.Point(244, 189)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(92, 23)
         Me.Button8.TabIndex = 23
@@ -347,86 +347,86 @@ Partial Class Superuserp4
         Me.Button19.Text = "Verify"
         Me.Button19.UseVisualStyleBackColor = True
         '
-        'Button23
+        'AppWizard
         '
-        Me.Button23.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button23.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button23.Image = CType(resources.GetObject("Button23.Image"), System.Drawing.Image)
-        Me.Button23.Location = New System.Drawing.Point(122, 188)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(92, 23)
-        Me.Button23.TabIndex = 25
-        Me.Button23.Text = "App wiz"
-        Me.Button23.UseVisualStyleBackColor = True
+        Me.AppWizard.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.AppWizard.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AppWizard.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.AppWizard.Image = CType(resources.GetObject("AppWizard.Image"), System.Drawing.Image)
+        Me.AppWizard.Location = New System.Drawing.Point(5, 43)
+        Me.AppWizard.Name = "AppWizard"
+        Me.AppWizard.Size = New System.Drawing.Size(92, 23)
+        Me.AppWizard.TabIndex = 25
+        Me.AppWizard.Text = "App Wizard"
+        Me.AppWizard.UseVisualStyleBackColor = True
         '
         'Superuserp4
         '
-        Me.AcceptButton = Me.Button11
+        Me.AcceptButton = Me.DirectXDiag
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.CancelButton = Me.Button1
-        Me.ClientSize = New System.Drawing.Size(468, 213)
-        Me.Controls.Add(Me.Button23)
+        Me.CancelButton = Me.Regedit
+        Me.ClientSize = New System.Drawing.Size(467, 215)
+        Me.Controls.Add(Me.AppWizard)
         Me.Controls.Add(Me.Button19)
         Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button22)
-        Me.Controls.Add(Me.Button21)
-        Me.Controls.Add(Me.Button20)
+        Me.Controls.Add(Me.AbortShutdown)
+        Me.Controls.Add(Me.Appdata)
+        Me.Controls.Add(Me.SafeMode)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button18)
-        Me.Controls.Add(Me.Button17)
-        Me.Controls.Add(Me.Button16)
-        Me.Controls.Add(Me.Button15)
-        Me.Controls.Add(Me.Button14)
-        Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.About)
+        Me.Controls.Add(Me.DeskCleanup)
+        Me.Controls.Add(Me.CompMgmt)
+        Me.Controls.Add(Me.Services)
+        Me.Controls.Add(Me.Winver)
+        Me.Controls.Add(Me.PowerShell)
+        Me.Controls.Add(Me.MSinfo)
+        Me.Controls.Add(Me.DirectXDiag)
+        Me.Controls.Add(Me.DeviceManager)
+        Me.Controls.Add(Me.EventViewer)
+        Me.Controls.Add(Me.Restart)
+        Me.Controls.Add(Me.Shutdown)
+        Me.Controls.Add(Me.Logoff)
+        Me.Controls.Add(Me.ControlPanel)
+        Me.Controls.Add(Me.TaskManager)
+        Me.Controls.Add(Me.CMD)
+        Me.Controls.Add(Me.Regedit)
         Me.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Superuserp4"
-        Me.Text = "SuperUser Version 3.5 {Devbuild}"
+        Me.Text = "SuperUser Version 3.7{Developer Build}"
         Me.TransparencyKey = System.Drawing.Color.Red
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents Button7 As System.Windows.Forms.Button
-    Friend WithEvents Button9 As System.Windows.Forms.Button
-    Friend WithEvents Button10 As System.Windows.Forms.Button
-    Friend WithEvents Button11 As System.Windows.Forms.Button
-    Friend WithEvents Button12 As System.Windows.Forms.Button
-    Friend WithEvents Button13 As System.Windows.Forms.Button
-    Friend WithEvents Button14 As System.Windows.Forms.Button
-    Friend WithEvents Button15 As System.Windows.Forms.Button
-    Friend WithEvents Button16 As System.Windows.Forms.Button
-    Friend WithEvents Button17 As System.Windows.Forms.Button
-    Friend WithEvents Button18 As System.Windows.Forms.Button
+    Friend WithEvents Regedit As System.Windows.Forms.Button
+    Friend WithEvents CMD As System.Windows.Forms.Button
+    Friend WithEvents TaskManager As System.Windows.Forms.Button
+    Friend WithEvents ControlPanel As System.Windows.Forms.Button
+    Friend WithEvents Logoff As System.Windows.Forms.Button
+    Friend WithEvents Shutdown As System.Windows.Forms.Button
+    Friend WithEvents Restart As System.Windows.Forms.Button
+    Friend WithEvents EventViewer As System.Windows.Forms.Button
+    Friend WithEvents DeviceManager As System.Windows.Forms.Button
+    Friend WithEvents DirectXDiag As System.Windows.Forms.Button
+    Friend WithEvents MSinfo As System.Windows.Forms.Button
+    Friend WithEvents PowerShell As System.Windows.Forms.Button
+    Friend WithEvents Winver As System.Windows.Forms.Button
+    Friend WithEvents Services As System.Windows.Forms.Button
+    Friend WithEvents CompMgmt As System.Windows.Forms.Button
+    Friend WithEvents DeskCleanup As System.Windows.Forms.Button
+    Friend WithEvents About As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents Button20 As System.Windows.Forms.Button
-    Friend WithEvents Button21 As System.Windows.Forms.Button
-    Friend WithEvents Button22 As System.Windows.Forms.Button
+    Friend WithEvents SafeMode As System.Windows.Forms.Button
+    Friend WithEvents Appdata As System.Windows.Forms.Button
+    Friend WithEvents AbortShutdown As System.Windows.Forms.Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button19 As Button
-    Friend WithEvents Button23 As Button
+    Friend WithEvents AppWizard As Button
 End Class
