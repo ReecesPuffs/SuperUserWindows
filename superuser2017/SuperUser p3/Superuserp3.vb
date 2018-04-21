@@ -150,7 +150,7 @@ Public Class Superuserp4
 
     Private Sub Button18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles About.Click
 
-        MsgBox("Made By Reece's Puffs and digm0repaka. Now on GitHub", vbOKOnly, "Version: 4.0")
+        MsgBox("Made By Reece's Puffs and digm0repaka, Beta Tested by barndon, Now on GitHub https://github.com/ReecesPuffs/SuperUserWindows", vbOKOnly, "Version: 4.2")
     End Sub
 
     Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.TextChanged
