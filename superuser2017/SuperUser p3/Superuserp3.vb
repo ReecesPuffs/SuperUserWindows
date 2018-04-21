@@ -202,13 +202,7 @@ Public Class Superuserp4
             MessageBox.Show(ex.Message)
         End Try
     End Sub
-    Private Sub Button23_Click_1(sender As Object, e As EventArgs)
-        If DriveIsValid = True Then
-            Process.Start(DriveLetter & ":\windows\system32\appwiz.cpl")
-        Else
-            MsgBox("Please press Verify")
-        End If
-    End Sub
+
 
     Private Sub AppDefult_Click(sender As Object, e As EventArgs) Handles AppDefult.Click
         If DriveIsValid = True Then
@@ -229,6 +223,14 @@ Public Class Superuserp4
     Private Sub WinMobCentre_Click(sender As Object, e As EventArgs) Handles ResourceMonitor.Click
         If DriveIsValid = True Then
             Process.Start(DriveLetter & ":\windows\System32\resmon.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
+    End Sub
+
+    Private Sub AppWizard_Click(sender As Object, e As EventArgs) Handles AppWizard.Click
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\windows\system32\appwiz.cpl")
         Else
             MsgBox("Please press Verify")
         End If
