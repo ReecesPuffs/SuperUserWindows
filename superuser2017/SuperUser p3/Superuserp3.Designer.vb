@@ -43,8 +43,11 @@ Partial Class Superuserp4
         Me.Appdata = New System.Windows.Forms.Button()
         Me.AbortShutdown = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Verify = New System.Windows.Forms.Button()
         Me.AppWizard = New System.Windows.Forms.Button()
+        Me.AppDefult = New System.Windows.Forms.Button()
+        Me.GroupPolicyEditor = New System.Windows.Forms.Button()
+        Me.ResourceMonitor = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Regedit
@@ -334,18 +337,18 @@ Partial Class Superuserp4
         Me.Button8.Text = "System"
         Me.Button8.UseVisualStyleBackColor = True
         '
-        'Button19
+        'Verify
         '
-        Me.Button19.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button19.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button19.Image = CType(resources.GetObject("Button19.Image"), System.Drawing.Image)
-        Me.Button19.Location = New System.Drawing.Point(369, 9)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(92, 23)
-        Me.Button19.TabIndex = 24
-        Me.Button19.Text = "Verify"
-        Me.Button19.UseVisualStyleBackColor = True
+        Me.Verify.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Verify.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Verify.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Verify.Image = CType(resources.GetObject("Verify.Image"), System.Drawing.Image)
+        Me.Verify.Location = New System.Drawing.Point(369, 9)
+        Me.Verify.Name = "Verify"
+        Me.Verify.Size = New System.Drawing.Size(92, 23)
+        Me.Verify.TabIndex = 24
+        Me.Verify.Text = "Verify"
+        Me.Verify.UseVisualStyleBackColor = True
         '
         'AppWizard
         '
@@ -353,12 +356,51 @@ Partial Class Superuserp4
         Me.AppWizard.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.AppWizard.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.AppWizard.Image = CType(resources.GetObject("AppWizard.Image"), System.Drawing.Image)
-        Me.AppWizard.Location = New System.Drawing.Point(5, 43)
+        Me.AppWizard.Location = New System.Drawing.Point(6, 43)
         Me.AppWizard.Name = "AppWizard"
         Me.AppWizard.Size = New System.Drawing.Size(92, 23)
-        Me.AppWizard.TabIndex = 25
+        Me.AppWizard.TabIndex = 26
         Me.AppWizard.Text = "App Wizard"
         Me.AppWizard.UseVisualStyleBackColor = True
+        '
+        'AppDefult
+        '
+        Me.AppDefult.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.AppDefult.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AppDefult.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.AppDefult.Image = CType(resources.GetObject("AppDefult.Image"), System.Drawing.Image)
+        Me.AppDefult.Location = New System.Drawing.Point(121, 43)
+        Me.AppDefult.Name = "AppDefult"
+        Me.AppDefult.Size = New System.Drawing.Size(92, 23)
+        Me.AppDefult.TabIndex = 27
+        Me.AppDefult.Text = "SetAppDefults"
+        Me.AppDefult.UseVisualStyleBackColor = True
+        '
+        'GroupPolicyEditor
+        '
+        Me.GroupPolicyEditor.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.GroupPolicyEditor.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.GroupPolicyEditor.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.GroupPolicyEditor.Image = CType(resources.GetObject("GroupPolicyEditor.Image"), System.Drawing.Image)
+        Me.GroupPolicyEditor.Location = New System.Drawing.Point(244, 43)
+        Me.GroupPolicyEditor.Name = "GroupPolicyEditor"
+        Me.GroupPolicyEditor.Size = New System.Drawing.Size(92, 23)
+        Me.GroupPolicyEditor.TabIndex = 28
+        Me.GroupPolicyEditor.Text = "GroupPolicyEditor"
+        Me.GroupPolicyEditor.UseVisualStyleBackColor = True
+        '
+        'ResourceMonitor
+        '
+        Me.ResourceMonitor.BackColor = System.Drawing.Color.DimGray
+        Me.ResourceMonitor.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ResourceMonitor.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ResourceMonitor.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.ResourceMonitor.Location = New System.Drawing.Point(369, 43)
+        Me.ResourceMonitor.Name = "ResourceMonitor"
+        Me.ResourceMonitor.Size = New System.Drawing.Size(92, 23)
+        Me.ResourceMonitor.TabIndex = 29
+        Me.ResourceMonitor.Text = "ResMonitor"
+        Me.ResourceMonitor.UseVisualStyleBackColor = False
         '
         'Superuserp4
         '
@@ -370,8 +412,11 @@ Partial Class Superuserp4
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.CancelButton = Me.Regedit
         Me.ClientSize = New System.Drawing.Size(467, 215)
+        Me.Controls.Add(Me.ResourceMonitor)
+        Me.Controls.Add(Me.GroupPolicyEditor)
+        Me.Controls.Add(Me.AppDefult)
         Me.Controls.Add(Me.AppWizard)
-        Me.Controls.Add(Me.Button19)
+        Me.Controls.Add(Me.Verify)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.AbortShutdown)
         Me.Controls.Add(Me.Appdata)
@@ -398,7 +443,7 @@ Partial Class Superuserp4
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Superuserp4"
-        Me.Text = "SuperUser Version 3.7{Developer Build}"
+        Me.Text = "SuperUser Version 4.0"
         Me.TransparencyKey = System.Drawing.Color.Red
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -427,6 +472,9 @@ Partial Class Superuserp4
     Friend WithEvents Appdata As System.Windows.Forms.Button
     Friend WithEvents AbortShutdown As System.Windows.Forms.Button
     Friend WithEvents Button8 As Button
-    Friend WithEvents Button19 As Button
+    Friend WithEvents Verify As Button
     Friend WithEvents AppWizard As Button
+    Friend WithEvents AppDefult As Button
+    Friend WithEvents GroupPolicyEditor As Button
+    Friend WithEvents ResourceMonitor As Button
 End Class

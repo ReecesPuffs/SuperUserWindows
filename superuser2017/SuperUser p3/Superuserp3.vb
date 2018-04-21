@@ -150,7 +150,7 @@ Public Class Superuserp4
 
     Private Sub Button18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles About.Click
 
-        MsgBox("Made By Reece's Puffs and digm0repaka. Now on GitHub", vbOKOnly, "Version: 3.7 Developer Build")
+        MsgBox("Made By Reece's Puffs and digm0repaka. Now on GitHub", vbOKOnly, "Version: 4.0")
     End Sub
 
     Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.TextChanged
@@ -190,7 +190,7 @@ Public Class Superuserp4
         End If
     End Sub
 
-    Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
+    Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Verify.Click
         Try
             If IO.Directory.Exists(DriveLetter & ":\windows") Then
                 MsgBox(DriveLetter & ": Drive is a Thing :D", vbOKOnly, "Our Service Says:")
@@ -202,12 +202,35 @@ Public Class Superuserp4
             MessageBox.Show(ex.Message)
         End Try
     End Sub
-    Private Sub Button23_Click_1(sender As Object, e As EventArgs) Handles AppWizard.Click
+    Private Sub Button23_Click_1(sender As Object, e As EventArgs)
         If DriveIsValid = True Then
             Process.Start(DriveLetter & ":\windows\system32\appwiz.cpl")
         Else
             MsgBox("Please press Verify")
         End If
     End Sub
-End Class
 
+    Private Sub AppDefult_Click(sender As Object, e As EventArgs) Handles AppDefult.Click
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\windows\System32\ComputerDefaults.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
+    End Sub
+
+    Private Sub GroupPolicyEditor_Click(sender As Object, e As EventArgs) Handles GroupPolicyEditor.Click
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\windows\System32\gpedit.msc")
+        Else
+            MsgBox("Please press Verify")
+        End If
+    End Sub
+
+    Private Sub WinMobCentre_Click(sender As Object, e As EventArgs) Handles ResourceMonitor.Click
+        If DriveIsValid = True Then
+            Process.Start(DriveLetter & ":\windows\System32\resmon.exe")
+        Else
+            MsgBox("Please press Verify")
+        End If
+    End Sub
+End Class
