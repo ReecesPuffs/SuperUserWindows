@@ -443,7 +443,7 @@ Partial Class Superuserp4
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Superuserp4"
-        Me.Text = "SuperUser Version 4.2"
+        Me.Text = "SuperUser Version 4.3"
         Me.TransparencyKey = System.Drawing.Color.Red
         Me.ResumeLayout(False)
         Me.PerformLayout()
