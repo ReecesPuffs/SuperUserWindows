@@ -493,7 +493,7 @@
         GZgaFmAGswMzMALMDMzAwZgYswMGYGZmBmZgZozAzMwAwMDMzA//2Q==
 </value>
   </data>
-  <data name="DeskCleanup.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="DiskCleanup.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBw8PDw8PDw8PDw8PDw0PDw0PDQ8NDQ8PFRUWFhURFRUY
         HSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLjf/2wBDAQoKCgUFBQ4FBQ4rGRMZKysrKysrKysrKysr

@@ -36,7 +36,7 @@ Partial Class Superuserp4
         Me.Winver = New System.Windows.Forms.Button()
         Me.Services = New System.Windows.Forms.Button()
         Me.CompMgmt = New System.Windows.Forms.Button()
-        Me.DeskCleanup = New System.Windows.Forms.Button()
+        Me.DiskCleanup = New System.Windows.Forms.Button()
         Me.About = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SafeMode = New System.Windows.Forms.Button()
@@ -246,18 +246,18 @@ Partial Class Superuserp4
         Me.CompMgmt.Text = "CompMgmt"
         Me.CompMgmt.UseVisualStyleBackColor = True
         '
-        'DeskCleanup
+        'DiskCleanup
         '
-        Me.DeskCleanup.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.DeskCleanup.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.DeskCleanup.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.DeskCleanup.Image = CType(resources.GetObject("DeskCleanup.Image"), System.Drawing.Image)
-        Me.DeskCleanup.Location = New System.Drawing.Point(121, 160)
-        Me.DeskCleanup.Name = "DeskCleanup"
-        Me.DeskCleanup.Size = New System.Drawing.Size(93, 23)
-        Me.DeskCleanup.TabIndex = 16
-        Me.DeskCleanup.Text = "DeskCleanup"
-        Me.DeskCleanup.UseVisualStyleBackColor = True
+        Me.DiskCleanup.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.DiskCleanup.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.DiskCleanup.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.DiskCleanup.Image = CType(resources.GetObject("DiskCleanup.Image"), System.Drawing.Image)
+        Me.DiskCleanup.Location = New System.Drawing.Point(121, 160)
+        Me.DiskCleanup.Name = "DiskCleanup"
+        Me.DiskCleanup.Size = New System.Drawing.Size(93, 23)
+        Me.DiskCleanup.TabIndex = 16
+        Me.DiskCleanup.Text = "DiskCleanup"
+        Me.DiskCleanup.UseVisualStyleBackColor = True
         '
         'About
         '
@@ -423,7 +423,7 @@ Partial Class Superuserp4
         Me.Controls.Add(Me.SafeMode)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.About)
-        Me.Controls.Add(Me.DeskCleanup)
+        Me.Controls.Add(Me.DiskCleanup)
         Me.Controls.Add(Me.CompMgmt)
         Me.Controls.Add(Me.Services)
         Me.Controls.Add(Me.Winver)
@@ -444,7 +444,7 @@ Partial Class Superuserp4
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Superuserp4"
-        Me.Text = "SuperUser Version 4.3.1"
+        Me.Text = "SuperUser Version 4.3.2"
         Me.TransparencyKey = System.Drawing.Color.Red
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -466,7 +466,7 @@ Partial Class Superuserp4
     Friend WithEvents Winver As System.Windows.Forms.Button
     Friend WithEvents Services As System.Windows.Forms.Button
     Friend WithEvents CompMgmt As System.Windows.Forms.Button
-    Friend WithEvents DeskCleanup As System.Windows.Forms.Button
+    Friend WithEvents DiskCleanup As System.Windows.Forms.Button
     Friend WithEvents About As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents SafeMode As System.Windows.Forms.Button

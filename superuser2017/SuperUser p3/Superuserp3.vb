@@ -141,7 +141,7 @@ Public Class Superuserp4
         End If
     End Sub
 
-    Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DeskCleanup.Click
+    Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DiskCleanup.Click
         If DriveIsValid = True Then
             Process.Start(DriveLetter & ":\Windows\System32\cleanmgr.exe")
         Else
@@ -151,7 +151,7 @@ Public Class Superuserp4
 
     Private Sub Button18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles About.Click
         sitedl = "https://github.com/ReecesPuffs/SuperUserWindows"
-        MsgBox("Made By Reece's Puffs and digm0repaka, Beta Tested by barndon, Now on GitHub " & sitedl, vbOKOnly, "Version: 4.3.1")
+        MsgBox("Made By Reece's Puffs and digm0repaka, Beta Tested by barndon, Now on GitHub " & sitedl, vbOKOnly, "Version: 4.3.2")
     End Sub
 
     Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.TextChanged

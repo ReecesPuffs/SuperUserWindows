@@ -115,14 +115,14 @@ C:\Users\Reece's Puffs\Documents\newsoop\SuperUserWindows-master\superuser2017\S
 F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser p3.vbproj.GenerateResource.Cache
 F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser.Resources.resources
 F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser.Superuserp4.resources
-F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\bin\Release\SuperUser 4.3.1.exe.manifest
-F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\bin\Release\SuperUser 4.3.1.application
-F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\bin\Release\SuperUser 4.3.1.exe
-F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\bin\Release\SuperUser 4.3.1.pdb
-F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\bin\Release\SuperUser 4.3.1.xml
 F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser p3.vbprojResolveAssemblyReference.cache
-F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser 4.3.1.exe.manifest
-F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser 4.3.1.application
-F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser 4.3.1.exe
-F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser 4.3.1.xml
-F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser 4.3.1.pdb
+F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\bin\Release\SuperUser 4.3.2.exe.manifest
+F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\bin\Release\SuperUser 4.3.2.application
+F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\bin\Release\SuperUser 4.3.2.exe
+F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\bin\Release\SuperUser 4.3.2.pdb
+F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\bin\Release\SuperUser 4.3.2.xml
+F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser 4.3.2.exe.manifest
+F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser 4.3.2.application
+F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser 4.3.2.exe
+F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser 4.3.2.xml
+F:\newsoop\SuperUserWindows-master\superuser2017\SuperUser p3\obj\x86\Release\SuperUser 4.3.2.pdb
