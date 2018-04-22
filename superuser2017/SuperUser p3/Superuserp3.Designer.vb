@@ -442,8 +442,9 @@ Partial Class Superuserp4
         Me.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "Superuserp4"
-        Me.Text = "SuperUser Version 4.3"
+        Me.Text = "SuperUser Version 4.3.1"
         Me.TransparencyKey = System.Drawing.Color.Red
         Me.ResumeLayout(False)
         Me.PerformLayout()
